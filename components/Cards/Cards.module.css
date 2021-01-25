@@ -1,0 +1,102 @@
+.cardOne {
+  width: 400px;
+  box-shadow: var(--box-shadow-more);
+}
+@media (max-width: 1340px) {
+  .cardOne {
+    width: 350px;
+  }
+}
+@media (max-width: 924px) {
+  .cardOne {
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 578px) {
+  .cardOne {
+    width: 350px;
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 524px) {
+  .cardOne {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 400px) {
+  .cardOne {
+    width: 300px;
+    margin-bottom: 1rem;
+  }
+}
+
+.cardOneTop {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  position: relative;
+
+  background-image: url('../../public/oriental-tiles.png');
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.cardOneTop h2 {
+  color: var(--text-white);
+  font-size: 1.7rem !important;
+  text-transform: uppercase;
+}
+
+.cardOneTop img {
+  width: 96px;
+  top: 100px;
+  position: absolute;
+  justify-self: center;
+}
+
+.cardOneBottom {
+  background: rgba(43,54,84,0.1);
+  background: var(--off-white);
+  height: 300px;
+  padding-top: 2rem;
+}
+/* @media (max-width: 924px) {
+  .cardOneBottom {
+    height: 250px;
+    padding-top: 1rem;
+  }
+} */
+
+.cardOneBottom p {
+  font-size: var(--font-larger);
+  padding: 2rem;
+  height: 180px;
+}
+
+.cardOneBottom button {
+  appearance: none;
+  outline: 0;
+  background-color: var(--rhone-darkBlue);
+  background-color: var(--rhone-orange);
+  border: none;
+  padding: 10px 15px;
+  /* color: var(--rhone-darkBlueText);
+  color: var(--text-white); */
+  width: 200px;
+  box-shadow: var(--box-shadow-less);
+  cursor: pointer;
+  font-size: var(--font-largest);
+  transition-duration: 0.25s;
+  margin: 0 auto;
+  display: block;
+  text-decoration: none;
+}
+
+.cardOneBottom button a {
+  color: var(--text-white);
+}
+
+.cardOneBottom button:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}

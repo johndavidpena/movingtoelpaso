@@ -1,0 +1,100 @@
+.blog {
+  padding-top: 112px;
+}
+@media (max-width: 768px) {
+  .blog {
+    padding-top: 0;
+  }
+}
+
+.blog h1 {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .blog h1 {
+  font-size: 1.5rem;
+  }
+}
+
+.card {
+  max-width: 552px;
+  margin: 2rem auto;
+  background: var(--grey-100);
+  box-shadow: var(--box-shadow-more);
+  cursor: pointer;
+}
+@media (max-width: 724px) {
+  .card {
+    margin: 2rem 1rem;
+  }
+}
+
+.card p {
+  padding: 0 8px;
+  font-size: var(--font-smaller);
+}
+
+.card span {
+  font-weight: bold;
+  font-size: var(--font-smaller);
+  padding: 8px;
+}
+
+.card h2 {
+  padding: 8px;
+  font-size: var(--font-larger);
+  font-weight: bold;
+}
+
+.card h2:after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto;
+    width: 80%; /* Change this to whatever width you want. */
+    padding-top: 8px;
+    border-bottom: 1px solid var(--grey-300);
+}
+
+/* Post styles */
+.post {
+  max-width: 744px;
+  margin: 0 auto;
+}
+@media (max-width: 744px) {
+  .post h1,
+  .post span,
+  .post p {
+    margin: 1rem;
+  }
+}
+
+/* For really tall images */
+.verticalImage {
+  object-fit: cover;
+  height: 595px;
+}
+
+.postTitle h1 {
+  padding: 8px;
+  font-size: var(--font-larger);
+  font-weight: bold;
+  text-align: start;
+}
+
+.postTitle span {
+  font-weight: bold;
+  font-size: var(--font-smaller);
+}
+
+.postTitle h1:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 8px;
+    border-bottom: 1px solid var(--grey-300);
+}

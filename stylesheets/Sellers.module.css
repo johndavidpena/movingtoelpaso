@@ -1,0 +1,49 @@
+.topGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+@media (max-width: 1240px) {
+  .topGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1rem;
+  }
+}
+
+.heading {
+  text-align: center;
+  padding-top: 112px;
+  font-weight: 700;
+}
+@media (max-width: 770px) {
+  .heading {
+    padding-top: 0;
+  }
+}
+
+.subHeading {
+  font-size: var(--font-larger);
+}
+
+.subHeading span {
+  color: var(--rhone-orange);
+  font-size: var(--font-larger);
+}
+
+.myPicture {
+  /* width: 50%; */
+}
+
+.assurances {
+  text-transform: uppercase;
+  font-size: var(--font-largest);
+  color: var(--rhone-orange);
+}
+
+.link {
+  color: var(--blue);
+  font-weight: 700;
+}

@@ -1,0 +1,94 @@
+.tools {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 134px 0;
+}
+
+.buyers,
+.sellers {
+  margin: 1rem auto;
+}
+
+.top {
+  width: 400px;
+  height: 100px;
+  box-shadow: var(--box-shadow-more);
+  background-image: url('../public/oriental-tiles.png');
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.top h1 {
+  color: var(--text-white);
+  font-size: 1.7rem !important;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 100px;
+}
+
+/* Strength of Offer styles */
+.SOO {
+  max-width: 950px;
+  margin: 0 auto 2rem auto;
+}
+
+.SOO h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.SOOformContainer {
+  background: var(--grey-100);
+  padding: 1rem;
+}
+
+.SOOformItem {
+  height: 66px;
+}
+
+.SOOformLabels,
+.SOOformItem,
+.SOOformResults {
+  display: grid;
+  grid-template-columns: 2.5fr 4fr 0.3fr;
+  align-items: center;
+}
+
+.SOOformLabels p,
+.SOOformResults p {
+  font-weight: bold;
+}
+
+.SOOformItem span {
+  font-size: var(--font-smallest);
+}
+
+.SOOformResults p:nth-child(2){
+  justify-self: end;
+}
+
+.SOOformNotes {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.SOOformItem input,
+.SOOformItem fieldset,
+.SOOformItem select {
+  display: block;
+  appearance: none;
+  outline: 0;
+  background-color: var(--grey-300);
+  width: 400px;
+  height: 40px;
+
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: var(--font-size);
+
+  color: var(--grey-800);
+
+  transition-duration: 0.25s;
+  font-weight: 300;
+}

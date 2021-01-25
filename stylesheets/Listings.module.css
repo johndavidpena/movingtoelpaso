@@ -1,0 +1,149 @@
+.pageOne {
+  height: 100vh;
+  background: url(https://res.cloudinary.com/mimas-music/image/upload/v1589389441/Pe%C3%B1a%20El%20Paso/luxuryBath.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.pageContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.POheading {
+  width: 450px;
+  position: absolute;
+  top: 30vh;
+  background: rgba(0,0,0,0.8);
+  padding: 2rem;
+}
+@media (max-width: 1280px) {
+  .POheading {
+    left: 2rem;
+  }
+}
+@media (max-width: 724px) {
+  .POheading {
+    width: 400px;
+  }
+}
+@media (max-width: 500px) {
+  .POheading {
+    width: 350px;
+  }
+}
+@media (max-width: 460px) {
+  .POheading {
+    padding: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .POheading {
+    width: 325px;
+    top: 20vh;
+    left: 1rem;
+  }
+}
+
+.POheading h1 {
+  color: var(--text-white);
+  font-size: 4.5rem;
+  font-weight: 900;
+}
+@media (max-width: 724px) {
+  .POheading h1 {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .POheading {
+    width: 325px;
+  }
+}
+
+.PObuttonContainer {
+  position: absolute;
+  top: 350px;
+  left: -2rem;
+  display: flex;
+  padding: 2rem;
+}
+@media (max-width: 724px) {
+.PObuttonContainer {
+    top: 300px;
+  }
+}
+@media (max-width: 500px) {
+.PObuttonContainer {
+    top: 360px;
+  }
+}
+@media (max-width: 460px) {
+.PObuttonContainer {
+    top: 300px;
+    padding: 1rem 0 2rem 2rem;
+    display: grid;
+  }
+}
+@media (max-width: 400px) {
+.PObuttonContainer {
+    top: 350px;
+    padding: 1rem 0 2rem 2rem;
+    display: grid;
+  }
+}
+
+.PObutton1,
+.PObutton2 {
+  width: 225px;
+  font-size: var(--font-larger);
+  color: var(--text-dark);
+  background: var(--off-white);
+  padding: 1rem;
+  appearance: none;
+  outline: 0;
+  border: none;
+  display: block;
+  text-decoration: none;
+}
+@media (max-width: 724px) {
+.PObutton1,
+.PObutton2 {
+    width: 200px;
+    padding: 1rem 0;
+  }
+}
+@media (max-width: 400px) {
+  .PObutton1,
+  .PObutton2 {
+    /* width: 162.5px; */
+    padding: 1rem;
+  }
+}
+
+.PObutton2 {
+  cursor: pointer;
+}
+
+.PObutton2:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.PObutton2 {
+  background: rgba(0,0,0,0.8);
+  border-top-style: 2px solid var(--grey-800);
+  border-right-style: 2px solid var(--grey-800);
+  border-bottom-style: 2px solid var(--grey-800);
+}
+
+.PObutton2 a {
+  color: var(--text-white);
+}
+@media (max-width: 524px) {
+  .PObutton2 a {
+    font-size: var(--font-smaller) !important;
+  }
+}

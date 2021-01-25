@@ -1,0 +1,23 @@
+.wrapper {
+  margin: 1rem 0;
+}
+
+.wrapper p {
+}
+
+.checkboxContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.checkboxContainer div {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: left;
+  margin: 1rem;
+}
+
+.checkboxContainer div svg {
+  width: 24px;
+  margin-right: 24px;
+}

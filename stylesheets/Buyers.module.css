@@ -1,0 +1,27 @@
+/* .heading {
+  padding-top: 112px;
+  text-align: center;
+}
+
+.subHeading {
+  text-align: center;
+}
+
+.placeholder {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.placeholder img {
+  width: 60% !important;
+} */
+
+/* BuyersGuide styles */
+.BuyersGuide {
+  margin-top: 112px;
+}
+
+.BuyersGuide img {
+  margin-bottom: 2rem;
+}

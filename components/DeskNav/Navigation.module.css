@@ -1,0 +1,37 @@
+.DeskNav {
+  position: absolute;
+  width: 100vw;
+  background: #ffffff;
+  height: 112px;
+}
+
+.logo img {
+  position: absolute;
+  top: -10px;
+  padding: 1rem;
+  width: 134px;
+  cursor: pointer;
+}
+
+.menuItems {
+  height: 112px;
+  width: 100%;
+  padding-left: 122px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.item:hover {
+  transform: scale(1.15);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.item a {
+  color: var(--text-dark);
+}
+
+.selected a {
+  color: var(--text-black) !important;
+}

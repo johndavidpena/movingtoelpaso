@@ -1,0 +1,32 @@
+{
+  "name": "penaelpasoTOmovingtoelpaso",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "analyze": "cross-env ANALYZE=true next build",
+    "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
+  },
+  "dependencies": {
+    "@next/bundle-analyzer": "^9.3.1",
+    "@sentry/browser": "^5.15.5",
+    "axios": "^0.19.2",
+    "formik": "^2.1.4",
+    "mongodb": "^3.5.7",
+    "next": "9.5.5",
+    "next-connect": "^0.6.6",
+    "next-seo": "^4.4.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-spring": "^8.0.27",
+    "twilio": "^3.46.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "globby": "^11.0.1",
+    "prettier": "^2.1.1"
+  }
+}
