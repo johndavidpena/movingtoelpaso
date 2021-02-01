@@ -4,11 +4,6 @@ export default {
   openGraph: {
     type: 'website',
     locale: 'en_IE',
-    site_name: 'Peña El Paso',
-  },
-  twitter: {
-    handle: '@PocktHerc',
-    site: '@site',
-    cardType: 'summary_large_image',
-  },
+    site_name: 'Moving to El Paso',
+  }
 }

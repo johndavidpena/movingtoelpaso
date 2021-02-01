@@ -3,12 +3,6 @@ require('dotenv').config();
 module.exports = {
   env: {
     MONGOURI: process.env.MONGOURI,
-    GOOGLE_MAPS_API_KEY: process.env.GOOGLE_MAPS_API_KEY,
-    GOOGLE_PROJECT_ID: process.env.GOOGLE_PROJECT_ID,
-    DIALOGFLOW_SESSION_ID: process.env.DIALOGFLOW_SESSION_ID,
-    DIALOGFLOW_LANGUAGE_CODE: process.env.DIALOGFLOW_LANGUAGE_CODE,
-    GOOGLE_CLIENT_EMAIL: process.env.GOOGLE_CLIENT_EMAIL,
-    GOOGLE_PRIVATE_KEY: process.env.GOOGLE_PRIVATE_KEY,
     TWILIO_ACCOUNT_SID: process.env.TWILIO_ACCOUNT_SID,
     TWILIO_AUTH_TOKEN: process.env.TWILIO_AUTH_TOKEN
   },

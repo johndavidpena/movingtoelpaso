@@ -92,10 +92,14 @@ const RelocatingBuyerExperience = () => {
       <div className={BlogStyles.blog}>
         <div className={BlogStyles.post}>
           <div className={VideoStyles.videoResponsive}>
-            <iframe title='home buying costs' width="560" height="315" src="https://www.youtube.com/embed/8zaNaWdv-rg" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe title="relocating buyer experience" width="560" height="315" src="https://www.youtube.com/embed/rdBCjEPLYwE" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
         </div>
       </div>
+
+      <br />
+      <br />
+      <br />
 
       {/* <div className={IndexStyles.pageContainer}>
         <BuyersGuide />
